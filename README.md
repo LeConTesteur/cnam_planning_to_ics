@@ -1,6 +1,6 @@
-# python-template
+# cnam_planning_to_ics
 
-![build](https://github.com/LeConTesteur/python-template/actions/workflows/build.yml/badge.svg)
+![build](https://github.com/LeConTesteur/cnam_planning_to_ics/actions/workflows/build.yml/badge.svg)
 
 
 ## Description
@@ -15,11 +15,14 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install python-template
+pip install cnam_planning_to_ics
 ```
 
 ## Usage
 
+```bash
+PYTHONPATH=. python3 cnam_planning_to_ics/main.py --ics <out_ics_path> <planning_csv>
+```
 
 
 ## Contributing
@@ -35,5 +38,4 @@ Run tests with tox command :
 
 ```bash
 tox
-tox -e testsacc
 ```

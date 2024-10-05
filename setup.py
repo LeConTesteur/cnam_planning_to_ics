@@ -8,6 +8,8 @@ DESCRIPTION = ''
 CLASSIFIERS = []
 
 requirements = [
+    "pydantic",
+    "ics"
 ]
 
 requirements_tests = [
@@ -17,7 +19,7 @@ extras = {
     'tests': requirements_tests,
 }
 
-NAME = 'python-template'
+NAME = 'cnam_planning_to_ics'
 MODULE = NAME.replace("-", "_")
 setuptools.setup(
     name=NAME,
